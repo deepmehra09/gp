@@ -1,0 +1,355 @@
+<html>
+	<head>
+	<title></title>
+	<style>
+         *{
+			margin: 0;
+			padding: 0;
+			}
+			.division{
+			width:100%;
+			}
+			.division ul li a{
+			text-decoration:none;
+			color:white;
+			font-size:20px;
+			}
+			.division ul li{
+			list-style-type:none;
+			float:left;
+			margin:15px;
+			}
+			.logo a{
+			font-size:50px;
+			color:blue;
+			text-decoration:none;
+			}
+			#header{
+			background-color:black;
+		/*	position:fixed; */
+			padding: 30px 0;
+			height:70px;
+		
+		    display:flex;
+		    align-items:center;
+		    justify-content:space-between;
+		    max-width:1360px;
+		    margin:auto; 
+		    padding:0 80px;
+		    }
+			
+			
+			.division1{
+			height:500px;
+			background-color:grey;
+			}
+			#home div{
+			float:left;
+			width:50%;
+			}
+			#home img{
+			margin-top:150px;
+			margin-left:200px;
+		
+			}
+			#h1{
+			padding:150px 0;
+		
+        
+        
+        
+      margin:20px 0;
+			
+			}
+			.division2{
+			height:400px;
+			background-color:red;
+			}
+			.division3{
+			height:400px;
+			background-color:blue;
+			}
+			
+			
+			#about{
+			padding:100px 0;
+			background-color:black;
+			}
+			.about-content{
+			display:flex;
+			flex-wrap:wrap;
+			align-items:center;
+			justify-content:space-between;
+			} 
+			.column-left{
+			width:45%;
+			}
+			.column-right{
+			width:55%;
+			color:white; 
+			}
+			.detail-content img{
+			margin-top:20px;
+			}
+			.width{
+			max-width:1300px;
+		    margin:auto;
+		    padding:0 80px;
+			margin:auto 0  auto 40px;
+		    }
+			.para{
+			color:orange;
+			text-shadow:-4px 1px 2px  red;
+			}
+			.para1{
+			color:white;
+			text-shadow:-4px 1px 2px  grey;
+			}
+			.para2{
+			color:green;
+			text-shadow:-4px 1px 2px lightgreen;
+			}
+			
+			.contact-content{
+			margin-left:200px;
+			}
+			.width1{
+			margin-left:700px;
+			}
+			#contact{
+			background-color:grey;
+			}
+			
+			
+			
+	</style>
+	</head>
+	<body>
+		<nav class="division" id="header">
+			<div class="logo"><a href="#"><span style=color:orange>L</span><span style=color:white>S</span><span style=color:green>P</span></a></div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Locality</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-right">
+					<p class="para" style=font-size:50px >Local</p>
+					<p class="para1" style=font-size:50px>Service</p>
+					<p class="para2" style=font-size:50px>Provider</p>
+				</div>
+				<div class="column-left-1">
+					<img src="https://avatars.githubusercontent.com/u/48095564?v=4&s=400">
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		
+		
+		
+		<div id="p3">
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<div class="image1">
+						<img src="data:image/png;base64,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">
+					</div>
+				</div>
+				<div class="column-right">
+					<form method="" action="">
+						<p style=font-size:50px>Select Location:</p>
+						<select>
+							
+							<option> delhi</option>
+							<option> mumbai</option>
+							<option> benglore</option>
+							<option> gurgaon</option>
+						
+						</select>
+					</form>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		
+				
+		
+		<div id="p1">
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://media.istockphoto.com/photos/happy-cleaner-working-at-a-hotel-and-changing-the-towels-in-a-room-picture-id1312481787?b=1&k=20&m=1312481787&s=170667a&w=0&h=rhRsc2DFOfIn2dEz3f37UbGi81oBSNhudA2dN9APNcc=">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px>MAID </p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3RyaWNpYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px> ELECTRIAN</p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://media.istockphoto.com/photos/plumber-at-work-in-a-bathroom-plumbing-repair-service-assemble-and-picture-id1339613829?b=1&k=20&m=1339613829&s=170667a&w=0&h=ib4ii0cXysY9qH1dHKjZ7TenP6IK7YXEH7urChrLjuo=">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px> PLUMBER</p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://images.unsplash.com/photo-1516862523118-a3724eb136d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZHJpdmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px> DRIVER</p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://media.istockphoto.com/photos/senior-adult-woman-enjoys-gardening-in-home-flower-bed-picture-id1319247809?b=1&k=20&m=1319247809&s=170667a&w=0&h=DTalsIifDU7tltQyeq_mtUjDMGvoOvshyOKw8Em34B8=">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px> GARDNER</p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://images.unsplash.com/photo-1611021061271-d13576f6bc34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnBlbnRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px> CARPENTER</p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://media.istockphoto.com/photos/happy-baby-playing-with-her-grandma-picture-id1300161629?b=1&k=20&m=1300161629&s=170667a&w=0&h=K_v1zhFjOmb5tHmcxx5QRv50slzTo0l2o87U08WN7wA=">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px> BABY SITTER</p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px> COOK</p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="about" id="about">
+		<div class="width">
+			<div class="about-content">
+				<div class="column-left">
+					<img src="https://media.istockphoto.com/photos/pest-control-exterminator-man-spraying-termite-pesticide-picture-id1341381731?b=1&k=20&m=1341381731&s=170667a&w=0&h=w32tyka4C_7jSzI2HH7zKNtaWm7ilg4Bz4x7cP8sElU=">
+				</div>
+				<div class="column-right">
+					<p style=font-size:50px> PEST CONTROL</p>
+					<p> flat upto 50% off</p>
+					<span style=background-color:green>BOOK NOW</span>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="p3">
+		<div class="contact" id="contact">
+		    <div class="width1">
+			  <h2 class="tittle" style=color:black>Contact Us</h2>
+			</div>
+			    <div class="contact-content">
+				<h2> 
+				<h2> Priyanshu-9319710134 </h2>
+				<h2> Nischay-9717409360</h2>
+				<h2> Aryan-8076085757</h2>
+				</div>
+		</div>
+		</div>
+		
+		
+		
+		
+	</body>
+</html>
